@@ -9,6 +9,8 @@ public:
 	void Update();
 	void ProcessConsumption( const Dude& dude );
 	void Draw( Graphics& gfx ) const;
+	bool IsEaten() const;
+private:
 	int x;
 	int y;
 	int vx;
